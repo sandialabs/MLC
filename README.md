@@ -21,5 +21,6 @@ which will include everything for tensorflow and mlc (tested on linux only).
 
 Note you will need to set mlc_ROOT to wherever you installed the mlc library (the lib directory).
 
+MLC is SCR 2831.0
 ###################################
 ###################################
