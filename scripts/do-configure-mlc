@@ -1,0 +1,8 @@
+rm -rf C*
+cmake \
+-G "Eclipse CDT4 - Ninja" \
+-D CMAKE_ECLIPSE_VERSION=4.13 \
+-D TENSORFLOW_ROOT=$HOME/software/tensorflow/install/tensorflow \
+-D CMAKE_INSTALL_PREFIX=$HOME/software/camellia/install/gnu/mlc \
+-D RANGE_CHECK=ON \
+$HOME/software/camellia/fluid-kinetic/codes/mlc

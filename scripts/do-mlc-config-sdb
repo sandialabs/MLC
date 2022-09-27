@@ -1,0 +1,8 @@
+rm -rf C*
+export WORKSPACE=~/repos/FLUID-KINETIC
+export CXX="/opt/rh/devtoolset-9/root/usr/bin/g++"
+cmake3 \
+-D TENSORFLOW_ROOT=/usr/local \
+-D CMAKE_INSTALL_PREFIX=${WORKSPACE}/install/mlc \
+-D RANGE_CHECK=ON \
+ ${WORKSPACE}/fluid-kinetic/codes/mlc
